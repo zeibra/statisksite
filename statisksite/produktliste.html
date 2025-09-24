@@ -6,20 +6,108 @@
     <link rel="stylesheet" href="style.css" />
     <title>Forside</title>
   </head>
-  <header>
-    <div>
-      <h1 class="Logo">Fashion<span>R</span>Us</h1>
-      <nav>
-        <ul class="navLinks">
-          <li><a href="index.html" aria-current="page">Categories</a></li>
-          <li><a href="produkt.html">Brands</a></li>
-          <li><a href="produktliste.html">Seasons</a></li>
-        </ul>
-      </nav>
-    </div>
-  </header>
   <body>
-    <main></main>
+    <header>
+      <div>
+        <h1 class="Logo">Fashion<span>R</span>Us</h1>
+        <nav>
+          <ul class="navLinks">
+            <li><a href="index.html" aria-current="page">Categories</a></li>
+            <li><a href="produkt.html">About the products</a></li>
+            <li><a href="produktliste.html">Explore</a></li>
+          </ul>
+        </nav>
+      </div>
+    </header>
+    <main>
+      <h2 class="Forside-h2">Products</h2>
+      <p class="forside-p">Shirts · Accessories · Sale</p>
+
+      <section class="productGrid">
+        <article class="productCard">
+          <a class="productLink" href="produkt.html#p1163">
+            <img
+              src="https://kea-alt-del.dk/t7/images/webp/640/1163.webp"
+              alt="Sahara Team India Fanwear Round Neck Jersey"
+            />
+            <h3 class="productName">
+              Sahara Team India Fanwear Round Neck Jersey
+            </h3>
+            <p class="productMeta">Nike · Tshirts</p>
+            <p class="price">DKK 895</p>
+          </a>
+        </article>
+        <article class="productCard onSale">
+          <span class="badge sale">-45%</span>
+          <a class="productLink" href="produkt.html#p1165">
+            <img
+              src="https://kea-alt-del.dk/t7/images/webp/640/1165.webp"
+              alt="Mean Team India Cricket Jersey"
+            />
+            <h3 class="productName">Mean Team India Cricket Jersey</h3>
+            <p class="productMeta">Nike · Tshirts</p>
+            <p class="price">
+              <span class="price-old">DKK 2495</span> DKK 1372
+            </p>
+          </a>
+        </article>
+
+        <article class="productCard onSale soldOut">
+          <span class="badge sale">-28%</span>
+          <span class="badge soldout">Sold out</span>
+          <a class="productLink" href="produkt.html#p1164">
+            <img
+              src="https://kea-alt-del.dk/t7/images/webp/640/1164.webp"
+              alt="Blue T20 Indian Cricket Jersey"
+            />
+            <h3 class="productName">Blue T20 Indian Cricket Jersey</h3>
+            <p class="productMeta">Nike · Tshirts</p>
+            <p class="price">
+              <span class="price-old">DKK 1595</span> DKK 1148
+            </p>
+          </a>
+        </article>
+        <article class="productCard onSale">
+          <span class="badge sale">-55%</span>
+          <a class="productLink" href="produkt.html#p1525">
+            <img
+              src="https://kea-alt-del.dk/t7/images/webp/640/1525.webp"
+              alt="Deck Navy Blue Backpack"
+            />
+            <h3 class="productName">Deck Navy Blue Backpack</h3>
+            <p class="productMeta">Puma · Backpacks</p>
+            <p class="price">
+              <span class="price-old">DKK 1299</span>
+              DKK 585
+            </p>
+          </a>
+        </article>
+
+        <article class="productCard">
+          <a class="productLink" href="produkt.html#p1526">
+            <img
+              src="https://kea-alt-del.dk/t7/images/webp/640/1526.webp"
+              alt="Big Cat Backpack Black"
+            />
+            <h3 class="productName">Big Cat Backpack Black</h3>
+            <p class="productMeta">Puma · Backpacks</p>
+            <p class="price">DKK 1299</p>
+          </a>
+        </article>
+        <article class="productCard">
+          <a class="productLink" href="produkt.html?id=PRODUCT_ID">
+            <img
+              src="https://kea-alt-del.dk/t7/images/webp/640/PRODUCT_ID.webp"
+              alt="Modelnavn på bukser"
+            />
+            <h3 class="productName">Modelnavn på bukser</h3>
+            <p class="productMeta">Brand · Pants</p>
+            <p class="price">DKK XXXX</p>
+          </a>
+        </article>
+      </section>
+    </main>
+
     <footer class="site-footer">
       <small>© Fashion<span>R</span> Us - Statisk demo af Zena</small>
     </footer>
